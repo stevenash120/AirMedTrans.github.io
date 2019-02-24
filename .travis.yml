@@ -8,12 +8,12 @@ script:
 deploy:
     provider: pages
     skip_cleanup: true
-    github_token: $GITHUB_TOKEN
+    github_token: $Github_token
     on:
         branch: master
     local_dir: public
-    repo: <username>/<username>.github.io
+    repo: stevenash120/AirMedTrans.github.io
     fqdn: <custom-domain-if-needed>
     target_branch: master
-    email: <github-email>
-    name: <github-username>
+    email: wnxcn@foxmail.com
+    name: stevenash120
